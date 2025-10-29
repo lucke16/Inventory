@@ -1,6 +1,6 @@
 <?php
 // menu_item_ingredients.php
-require '../php/db_connect.php';
+require 'db_connect.php';
 $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 
 if (!$id) {

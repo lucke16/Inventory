@@ -1,6 +1,6 @@
 <?php
 // menu_items.php
-require '../php/db_connect.php';
+require 'db_connect.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'])) {
     $menu_id = isset($_POST['menu_item_id']) && $_POST['menu_item_id'] !== '' ? (int)$_POST['menu_item_id'] : 0;

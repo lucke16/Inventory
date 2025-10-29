@@ -1,5 +1,5 @@
 <?php
-include '../php/db_connect.php';
+include 'db_connect.php';
 $sql = "SELECT t.transaction_id, i.name AS ingredient, t.change_amount, t.unit, t.reason, t.transaction_date
         FROM inventory_transaction t
         JOIN ingredient i ON t.ingredient_id = i.ingredient_id

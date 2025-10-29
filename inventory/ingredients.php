@@ -1,6 +1,6 @@
 <?php
 // ingredients.php
-require '../php/db_connect.php';
+require 'db_connect.php';
 
 $action = $_GET['action'] ?? '';
 $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
