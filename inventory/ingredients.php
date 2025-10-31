@@ -63,14 +63,6 @@ $result = $conn->query("SELECT i.*, ic.category_name FROM ingredient i JOIN ingr
     </div>
   </div>
 
-  <div class="container">
-    <div class="sidebar panel">
-      <h3>Inventory</h3>
-      <a class="side-link" href="ingredients.php">All Ingredients</a>
-      <a class="side-link" href="menu_items.php">Menu Items</a>
-      <a class="side-link" href="inventory_transaction.php">Transactions</a>
-    </div>
-
     <div class="panel">
       <div style="display:flex;justify-content:space-between;align-items:center;">
         <h2>Ingredients</h2>

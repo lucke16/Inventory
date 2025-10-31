@@ -51,13 +51,6 @@ $result = $conn->query("SELECT * FROM menu_item ORDER BY menu_item_id ASC");
     </div>
   </div>
 
-  <div class="container">
-    <div class="sidebar panel">
-      <h3>Menu</h3>
-      <a class="side-link" href="menu_items.php">All Items</a>
-      <a class="side-link" href="ingredients.php">Ingredients</a>
-    </div>
-
     <div class="panel">
       <div style="display:flex;justify-content:space-between;align-items:center;">
         <h2>Menu Items</h2>

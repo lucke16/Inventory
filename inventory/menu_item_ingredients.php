@@ -43,14 +43,6 @@ $stmt2->close();
     </div>
   </div>
 
-  <div class="container">
-    <div class="sidebar panel">
-      <h3>Recipe</h3>
-      <div class="small-muted">Menu item</div>
-      <div style="margin-top:8px"><strong><?=htmlspecialchars($menu['name'])?></strong></div>
-      <div class="small-muted" style="margin-top:10px">Price: ₱<?=number_format($menu['price'],2)?></div>
-    </div>
-
     <div class="panel">
       <h2><?=htmlspecialchars($menu['name'])?> — Ingredients</h2>
       <?php if ($rows->num_rows === 0): ?>

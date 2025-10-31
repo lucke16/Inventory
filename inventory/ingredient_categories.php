@@ -52,14 +52,6 @@ $categories = $conn->query("SELECT * FROM ingredient_category ORDER BY category_
     </div>
   </div>
 
-  <div class="container">
-    <div class="sidebar panel">
-      <h3>Actions</h3>
-      <a class="side-link" href="ingredient_categories.php">Manage Categories</a>
-      <a class="side-link" href="ingredients.php">Ingredients</a>
-      <a class="side-link" href="menu_items.php">Menu</a>
-    </div>
-
     <div class="panel">
       <div style="display:flex;justify-content:space-between;align-items:center;">
         <h2>Ingredient Categories</h2>
